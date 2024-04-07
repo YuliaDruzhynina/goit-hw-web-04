@@ -72,6 +72,7 @@ def run_server(host, port):
         http_server.server_close()
 
 def save_data(data):
+    data_parse = urllib.parse.unquote_plus(data.decode())
     data_parse = data.decode()
     current_data = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     try:
