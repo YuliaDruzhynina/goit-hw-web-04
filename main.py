@@ -12,7 +12,7 @@ import json
 BASE_DIR = Path()
 UDP_HOST = 'localhost'
 UDP_PORT = 5000
-HTTP_HOST = 'localhost'
+HTTP_HOST = '0.0.0.0'
 HTTP_PORT = 3000
 
 
